@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.public_header_files = '**/ExportHeaders/**/*.h'
     s.source_files = "**/ExportHeaders/**/*.h"
-    s.vendored_libraries = '**/libQYSDK.a', '**/libcrypto.a', '**/libevent.a'
+    s.vendored_libraries = '**/libQYSDK.a', '**/libevent.a'
     s.resource  = "**/QYResource.bundle"
     s.framework = 'UIKit','CoreText','MobileCoreServices','SystemConfiguration','AVFoundation','CoreTelephony','CoreMedia','AudioToolbox','AssetsLibrary'
     s.libraries = 'z','sqlite3.0','xml2'
